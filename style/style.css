@@ -1,3 +1,11 @@
 form a {
   margin-left: 5px;
 }
+
+.add, .back, .delete {
+  margin-top: 30px;
+}
+
+.title, .categories, .content {
+  margin-top: 20px;
+}

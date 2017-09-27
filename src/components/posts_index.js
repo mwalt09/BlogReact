@@ -25,7 +25,7 @@ class PostsIndex extends Component {
     // console.log(this.props.posts);
     return (
       <div>
-        <div className="text-xs-right">
+        <div className="text-xs-right add">
           <Link className="btn btn-primary" to="/posts/new">
             Add a Post
           </Link>
