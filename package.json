@@ -5,9 +5,9 @@
   "main": "index.js",
   "repository": "",
   "scripts": {
-    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "postinstall": "NODE_ENV=production webpack -p",
-    "start": "node server.js"
+    "dev": "node server.js"
   },
   "author": "",
   "license": "ISC",

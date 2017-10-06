@@ -29,7 +29,11 @@ class PostsNew extends Component {
 
     return (
       <form onSubmit={handleSubmit(this.onSubmit.bind(this))}>
-        <Field label="Title" name="title" component={this.renderField} />
+        <Field 
+          label="Title" 
+          name="title" 
+          component={this.renderField} 
+        />
         <Field
           label="Categories"
           name="categories"
@@ -70,8 +74,8 @@ function validate(values) {
 }
 
 export default reduxForm({
-  validate,
-  form: "PostsNewForm"
+  form: "PostsNewForm",
+  validate
 })(
   connect(null, { createPost })(PostsNew)
 );
